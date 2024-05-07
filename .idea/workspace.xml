@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b11adb85-7072-4800-8065-17f0954f80c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="b11adb85-7072-4800-8065-17f0954f80c4" name="Changes" comment="Use royalty-free sound files instead of Chris' purchased ones&#10;&#10;Co-authored-by: casy@ChristopherCasy.com">
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonic-sound-off-machine.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,25 +16,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2g9ao9ZA9j7Go0AX9DTImA1xTxc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="pythonProject" />
+      <module name="pythonic-sound-off-machine" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -68,14 +73,63 @@
       <option name="presentableId" value="Default" />
       <updated>1715112419358</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1715112480145</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715112480145</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add 5 *.wav files from freesound.org&#10;&#10;Co-authored-by: casy@ChristopherCasy.com">
+      <option name="closed" value="true" />
+      <created>1715118710729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715118710729</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First working code from ChatGPT.&#10;&#10;Co-authored-by: casy@ChristopherCasy.com">
+      <option name="closed" value="true" />
+      <created>1715119396383</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715119396383</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add file: .gitignore&#10;&#10;Co-authored-by: casy@ChristopherCasy.com">
+      <option name="closed" value="true" />
+      <created>1715119657768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715119657768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Use royalty-free sound files instead of Chris' purchased ones&#10;&#10;Co-authored-by: casy@ChristopherCasy.com">
+      <option name="closed" value="true" />
+      <created>1715119719826</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715119719826</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add 5 *.wav files from freesound.org&#10;&#10;Co-authored-by: casy@ChristopherCasy.com" />
+    <MESSAGE value="First working code from ChatGPT.&#10;&#10;Co-authored-by: casy@ChristopherCasy.com" />
+    <MESSAGE value="Add file: .gitignore&#10;&#10;Co-authored-by: casy@ChristopherCasy.com" />
+    <MESSAGE value="Use royalty-free sound files instead of Chris' purchased ones&#10;&#10;Co-authored-by: casy@ChristopherCasy.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use royalty-free sound files instead of Chris' purchased ones&#10;&#10;Co-authored-by: casy@ChristopherCasy.com" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
+          <line>20</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
