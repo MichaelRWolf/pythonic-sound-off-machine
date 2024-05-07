@@ -9,12 +9,14 @@ sound_files = {
     "Handbrake Turn": "71741__audible-edge__nissan-maxima-handbrake-turn-04-25-2009.wav",
 }
 
+
 def play_sound(label):
     file_path = sound_files.get(label)
     if file_path:
         pygame.mixer.init()
         pygame.mixer.music.load(file_path)
         pygame.mixer.music.play()
+
 
 def main():
     root = tk.Tk()
@@ -25,6 +27,7 @@ def main():
         button.pack(pady=5)
 
     root.mainloop()
+
 
 if __name__ == '__main__':
     main()
