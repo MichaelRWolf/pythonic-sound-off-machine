@@ -1,16 +1,30 @@
-# This is a sample Python script.
+import tkinter as tk
+import pygame
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+sound_files = {
+    "boing": "boing-SBA-300156634.wav",
+    "clock": "clock-fast-ticking-SBA-300419272.wav",
+    "applause": "concert-scream-applause-short-SBA-300054812.wav",
+    "zombie groan": "crowd-zombie-groan-moan-SBA-300156819.wav",
+    "ding": "good-idea-shiny-ding-SBA-300457977.wav"
+}
 
+def play_sound(label):
+    file_path = sound_files.get(label)
+    if file_path:
+        pygame.mixer.init()
+        pygame.mixer.music.load(file_path)
+        pygame.mixer.music.play()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}', 'are you intelligent?')  # Press ⌘F8 to toggle the breakpoint.
+def main():
+    root = tk.Tk()
+    root.title("Sound Player")
 
+    for label, _ in sound_files.items():
+        button = tk.Button(root, text=label, command=lambda l=label: play_sound(l))
+        button.pack(pady=5)
 
-# Press the green button in the gutter to run the script.
+    root.mainloop()
+
 if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    main()
