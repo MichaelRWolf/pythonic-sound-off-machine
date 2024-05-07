@@ -2,11 +2,11 @@ import tkinter as tk
 import pygame
 
 sound_files = {
-    "boing": "boing-SBA-300156634.wav",
-    "clock": "clock-fast-ticking-SBA-300419272.wav",
-    "applause": "concert-scream-applause-short-SBA-300054812.wav",
-    "zombie groan": "crowd-zombie-groan-moan-SBA-300156819.wav",
-    "ding": "good-idea-shiny-ding-SBA-300457977.wav"
+    "kick-fx": "105623__soniktec__kick-fx-marker-249.wav",
+    "Bad Guy Laughter": "214504__robinhood76__04751-bad-guy-male-laughter.wav",
+    "Demon Ghost Speaking": "362674__osiruswaltz__demon_ghost-speaking-2.wav",
+    "Bell": "575253__psy_kshy__bell.wav",
+    "Handbrake Turn": "71741__audible-edge__nissan-maxima-handbrake-turn-04-25-2009.wav",
 }
 
 def play_sound(label):
